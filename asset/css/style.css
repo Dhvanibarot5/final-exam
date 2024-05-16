@@ -1,0 +1,26 @@
+:root{
+  --font:'Poppins';
+}
+body{
+  font-family: var(--font);
+}
+.cardBg{
+  background-image: url(../images/bg-color.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blogImg {
+  transition: all 0.3s linear;
+}
+
+.blogImg:hover {
+  transform: scale(1.2);
+}
+
+.blogText{
+  transition: all 0.3s linear;
+}
+.blogText:hover{
+  color: rgb(16, 92, 136);
+}
